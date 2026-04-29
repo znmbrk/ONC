@@ -45,13 +45,13 @@ TABLE SCHEDULE
 * ID - INTEGER - primary key
 * Begin - TIMESTAMP
 * End - TIMESTAMP
+* ShiftLength - INTEGER 
 * TeamID - INTEGER - Foreign Key
 
 TABLE EngineerAndSchedule
 * Engineer - INTEGER - foreign key
 * Schedule - INTEGER - foreign key
-* Begin - TIMESTAMP
-* End - TIMESTAMP
+* RotationPosition - INTEGER
 
 TABLE OVERRIDE
 * ID - INTEGER - primary key
